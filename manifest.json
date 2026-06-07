@@ -1,0 +1,246 @@
+﻿{
+    "schema":  2,
+    "updated_at":  "2026-06-07T02:09:28Z",
+    "components":  [
+                       {
+                           "id":  "engine",
+                           "version":  "1.1.0",
+                           "size":  15162961,
+                           "archive":  {
+                                           "sha256":  "f1a848886ca5168488775949cb40964ef37bfe4c305d2110193fd8d7703e0fff",
+                                           "parts":  {
+                                                         "size":  15162961,
+                                                         "gitee":  "https://gitee.com/xzon/vtools-module-engine/raw/main/packages/engine.zip",
+                                                         "github":  "https://raw.githubusercontent.com/wmousew/vtools-module-engine/main/packages/engine.zip"
+                                                     }
+                                       },
+                           "files":  [
+                                         {
+                                             "path":  "models/ggml-silero-v6.2.0.bin",
+                                             "sha256":  "2aa269b785eeb53a82983a20501ddf7c1d9c48e33ab63a41391ac6c9f7fb6987",
+                                             "size":  885098
+                                         },
+                                         {
+                                             "path":  "tools/avcodec-61.dll",
+                                             "sha256":  "ce1557cbc8da035395882b96694d3af3691e183479eb778383624777a2d8410d",
+                                             "size":  19711392
+                                         },
+                                         {
+                                             "path":  "tools/avdevice-61.dll",
+                                             "sha256":  "cb9558f400020d6ae9822f92dd0aef55a73ad4a849908c3735841a369891f80f",
+                                             "size":  177056
+                                         },
+                                         {
+                                             "path":  "tools/avfilter-10.dll",
+                                             "sha256":  "72dd997366d93452393c077064a56b6b346b9be7b3655349661329122774128c",
+                                             "size":  5626784
+                                         },
+                                         {
+                                             "path":  "tools/avformat-61.dll",
+                                             "sha256":  "3b816dfa2ca08b73cac042f2518af3313de42aeaebc7ed5276a4fe376f5100d6",
+                                             "size":  3365280
+                                         },
+                                         {
+                                             "path":  "tools/avutil-59.dll",
+                                             "sha256":  "516e72c5cdaeb5f9dc71479c4eff545912d82966716dae0df7d5a0cb36a11ffe",
+                                             "size":  1451424
+                                         },
+                                         {
+                                             "path":  "tools/brotlicommon.dll",
+                                             "sha256":  "a19bc44cd2ddd01d53f64373cf69db48990c77d12c92f230bf7fa0a8e1b048dc",
+                                             "size":  156576
+                                         },
+                                         {
+                                             "path":  "tools/brotlienc.dll",
+                                             "sha256":  "8041c0fd1518f8928046239965904285fd4026cf7519d855b73e461254423451",
+                                             "size":  688544
+                                         },
+                                         {
+                                             "path":  "tools/dav1d.dll",
+                                             "sha256":  "0f4f983dbec51b801d42abab7a47d27b6f1026de445d82f404dd5e89d27df478",
+                                             "size":  1031072
+                                         },
+                                         {
+                                             "path":  "tools/ffmpeg.dll",
+                                             "sha256":  "5d2b654aa59001e48357595db355232d782c5e0c3e43ef602e7f18d2989eb37b",
+                                             "size":  468896
+                                         },
+                                         {
+                                             "path":  "tools/ffmpeg.exe",
+                                             "sha256":  "4bceaa96f8a66dda8828dbc58b9c9682c1dddecb2869a13fd1c270317f51efb2",
+                                             "size":  472992
+                                         },
+                                         {
+                                             "path":  "tools/jxl.dll",
+                                             "sha256":  "bc60500eee271323d68f8919872a8e3b9e4a4704b6fad48509b77dc2dc54aebd",
+                                             "size":  3261344
+                                         },
+                                         {
+                                             "path":  "tools/jxl_cms.dll",
+                                             "sha256":  "636c5fa1f3540e655c8ebc06075af60a466357af8b8f7cbcf62c148ff019d38b",
+                                             "size":  159136
+                                         },
+                                         {
+                                             "path":  "tools/jxl_threads.dll",
+                                             "sha256":  "57710f391fc05689fbd26e0360edbe8044a86d2ae05f4fa30702425325e55e2c",
+                                             "size":  41888
+                                         },
+                                         {
+                                             "path":  "tools/libvecrptor.dll",
+                                             "sha256":  "863fa30a2754d022314421723358e454cd3ba720396b7c4e5576ef72ea899ce4",
+                                             "size":  105376
+                                         },
+                                         {
+                                             "path":  "tools/swresample-5.dll",
+                                             "sha256":  "40244e96faade42811119f9b6d6f262e442da0d7bda6feb0e3ad9776edbee3d1",
+                                             "size":  200096
+                                         },
+                                         {
+                                             "path":  "tools/swscale-8.dll",
+                                             "sha256":  "d342f7d6fd4fd9d8abc24146ece3d973c97a6d7d05e0638e336f509a2def24fa",
+                                             "size":  853920
+                                         },
+                                         {
+                                             "path":  "tools/whisper/whisper-cli.exe",
+                                             "sha256":  "a8ab3ff526f1a95a25dca37481b5c6f9bc64e3cab8608fcb3c537154b1d7162b",
+                                             "size":  1871872
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "model-base",
+                           "version":  "1.1.0",
+                           "size":  133316352,
+                           "archive":  {
+                                           "sha256":  "18b7366ce54a8936da4af5d4cacbe1e466f8b07f63003c849c1124be72d2b4d6",
+                                           "parts":  [
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-base/raw/main/packages/model-base.zip.part000",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-base/main/packages/model-base.zip.part000"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-base/raw/main/packages/model-base.zip.part001",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-base/main/packages/model-base.zip.part001"
+                                                         },
+                                                         {
+                                                             "size":  38944512,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-base/raw/main/packages/model-base.zip.part002",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-base/main/packages/model-base.zip.part002"
+                                                         }
+                                                     ]
+                                       },
+                           "files":  [
+                                         {
+                                             "path":  "models/ggml-base.bin",
+                                             "sha256":  "60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe",
+                                             "size":  147951465
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "model-small",
+                           "version":  "1.1.0",
+                           "size":  446833543,
+                           "archive":  {
+                                           "sha256":  "4016fa0583295957cbd186d7499e5c7d29012dc3bf0a32bc30340064ac79052a",
+                                           "parts":  [
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part000",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part000"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part001",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part001"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part002",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part002"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part003",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part003"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part004",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part004"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part005",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part005"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part006",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part006"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part007",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part007"
+                                                         },
+                                                         {
+                                                             "size":  47185920,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part008",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part008"
+                                                         },
+                                                         {
+                                                             "size":  22160263,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part009",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part009"
+                                                         }
+                                                     ]
+                                       },
+                           "files":  [
+                                         {
+                                             "path":  "models/ggml-small.bin",
+                                             "sha256":  "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+                                             "size":  487601967
+                                         }
+                                     ]
+                       }
+                   ],
+    "packages":  [
+                     {
+                         "id":  "fast",
+                         "name":  "Fast",
+                         "description":  "Engine, VAD, and base model.",
+                         "version":  "1.1.0",
+                         "size":  148479313,
+                         "components":  [
+                                            "engine",
+                                            "model-base"
+                                        ]
+                     },
+                     {
+                         "id":  "standard",
+                         "name":  "Standard",
+                         "description":  "Engine, VAD, and small model.",
+                         "version":  "1.1.0",
+                         "size":  461996504,
+                         "components":  [
+                                            "engine",
+                                            "model-small"
+                                        ]
+                     },
+                     {
+                         "id":  "complete",
+                         "name":  "Complete",
+                         "description":  "Engine, VAD, base model, and small model.",
+                         "version":  "1.1.0",
+                         "size":  595312856,
+                         "components":  [
+                                            "engine",
+                                            "model-base",
+                                            "model-small"
+                                        ]
+                     }
+                 ]
+}
