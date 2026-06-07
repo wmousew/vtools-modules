@@ -8,11 +8,13 @@
                            "size":  15162961,
                            "archive":  {
                                            "sha256":  "f1a848886ca5168488775949cb40964ef37bfe4c305d2110193fd8d7703e0fff",
-                                           "parts":  {
-                                                         "size":  15162961,
-                                                         "gitee":  "https://gitee.com/xzon/vtools-module-engine/raw/main/packages/engine.zip",
-                                                         "github":  "https://raw.githubusercontent.com/wmousew/vtools-module-engine/main/packages/engine.zip"
-                                                     }
+                                           "parts":  [
+                                                         {
+                                                             "size":  15162961,
+                                                             "gitee":  "https://gitee.com/xzon/vtools-module-engine/raw/main/packages/engine.zip",
+                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-module-engine/main/packages/engine.zip"
+                                                         }
+                                                     ]
                                        },
                            "files":  [
                                          {
