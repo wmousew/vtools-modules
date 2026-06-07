@@ -1,9 +1,3 @@
-# vtools 离线识别模块清单
+﻿# vtools module manifest
 
-本仓库只保存字幕工坊离线识别模块的下载清单。实际组件分别存放于：
-
-- `vtools-module-engine`
-- `vtools-model-base`
-- `vtools-model-small`
-
-应用会按套餐下载所需组件，并跳过本地已经安装且校验通过的组件。
+Current module release: `modules-V1.1.1`. Gitee and GitHub use identical 90 MB release assets.

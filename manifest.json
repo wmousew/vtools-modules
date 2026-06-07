@@ -1,18 +1,21 @@
 ﻿{
     "schema":  2,
-    "updated_at":  "2026-06-07T02:09:28Z",
+    "version":  "V1.1.1",
+    "release_tag":  "modules-V1.1.1",
+    "updated_at":  "2026-06-07T16:02:18Z",
     "components":  [
                        {
                            "id":  "engine",
-                           "version":  "1.1.0",
+                           "version":  "V1.1.1",
                            "size":  15162961,
                            "archive":  {
                                            "sha256":  "f1a848886ca5168488775949cb40964ef37bfe4c305d2110193fd8d7703e0fff",
                                            "parts":  [
                                                          {
                                                              "size":  15162961,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-module-engine/raw/main/packages/engine.zip",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-module-engine/main/packages/engine.zip"
+                                                             "sha256":  "f1a848886ca5168488775949cb40964ef37bfe4c305d2110193fd8d7703e0fff",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/engine.zip",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/engine.zip"
                                                          }
                                                      ]
                                        },
@@ -111,25 +114,22 @@
                        },
                        {
                            "id":  "model-base",
-                           "version":  "1.1.0",
+                           "version":  "V1.1.1",
                            "size":  133316352,
                            "archive":  {
                                            "sha256":  "18b7366ce54a8936da4af5d4cacbe1e466f8b07f63003c849c1124be72d2b4d6",
                                            "parts":  [
                                                          {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-base/raw/main/packages/model-base.zip.part000",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-base/main/packages/model-base.zip.part000"
-                                                         },
-                                                         {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-base/raw/main/packages/model-base.zip.part001",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-base/main/packages/model-base.zip.part001"
+                                                             "size":  94371840,
+                                                             "sha256":  "87779e524240b3d419a146ab586b9b6aed6b0b24d7a3d8c923f5aef3e9a483e5",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/model-base.zip.part000",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/model-base.zip.part000"
                                                          },
                                                          {
                                                              "size":  38944512,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-base/raw/main/packages/model-base.zip.part002",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-base/main/packages/model-base.zip.part002"
+                                                             "sha256":  "2f2cb35123aa59bd6a894b6d8de7bb481cf6020b0adc0e30ff7e2d31389208c9",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/model-base.zip.part001",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/model-base.zip.part001"
                                                          }
                                                      ]
                                        },
@@ -143,60 +143,40 @@
                        },
                        {
                            "id":  "model-small",
-                           "version":  "1.1.0",
+                           "version":  "V1.1.1",
                            "size":  446833543,
                            "archive":  {
                                            "sha256":  "4016fa0583295957cbd186d7499e5c7d29012dc3bf0a32bc30340064ac79052a",
                                            "parts":  [
                                                          {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part000",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part000"
+                                                             "size":  94371840,
+                                                             "sha256":  "66a0a63ad250cf3acc60743e7f49a90f9b1891cc378aef8ec944a361951f2c88",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part000",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part000"
                                                          },
                                                          {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part001",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part001"
+                                                             "size":  94371840,
+                                                             "sha256":  "74b1708608d5bb926bb7493ddba79ca8ac611ecc6841de022621fdf14e6fac11",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part001",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part001"
                                                          },
                                                          {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part002",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part002"
+                                                             "size":  94371840,
+                                                             "sha256":  "79a39274031dd90791ca603d6b820a82284a5c13478814f6c40b6a46f176e46c",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part002",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part002"
                                                          },
                                                          {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part003",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part003"
+                                                             "size":  94371840,
+                                                             "sha256":  "e6499787bc3a4d882d00ff137623572ffbcd25aaaadba8be07345de2e61f23d8",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part003",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part003"
                                                          },
                                                          {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part004",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part004"
-                                                         },
-                                                         {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part005",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part005"
-                                                         },
-                                                         {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part006",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part006"
-                                                         },
-                                                         {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part007",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part007"
-                                                         },
-                                                         {
-                                                             "size":  47185920,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part008",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part008"
-                                                         },
-                                                         {
-                                                             "size":  22160263,
-                                                             "gitee":  "https://gitee.com/xzon/vtools-model-small/raw/main/packages/model-small.zip.part009",
-                                                             "github":  "https://raw.githubusercontent.com/wmousew/vtools-model-small/main/packages/model-small.zip.part009"
+                                                             "size":  69346183,
+                                                             "sha256":  "187f1fdef5ca278a2daeb78956ea43f8778ba057617db28b31e500e3f41a1d92",
+                                                             "gitee":  "https://gitee.com/xzon/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part004",
+                                                             "github":  "https://github.com/wmousew/vtools-modules/releases/download/modules-V1.1.1/model-small.zip.part004"
                                                          }
                                                      ]
                                        },
@@ -214,7 +194,7 @@
                          "id":  "fast",
                          "name":  "Fast",
                          "description":  "Engine, VAD, and base model.",
-                         "version":  "1.1.0",
+                         "version":  "V1.1.1",
                          "size":  148479313,
                          "components":  [
                                             "engine",
@@ -225,7 +205,7 @@
                          "id":  "standard",
                          "name":  "Standard",
                          "description":  "Engine, VAD, and small model.",
-                         "version":  "1.1.0",
+                         "version":  "V1.1.1",
                          "size":  461996504,
                          "components":  [
                                             "engine",
@@ -236,7 +216,7 @@
                          "id":  "complete",
                          "name":  "Complete",
                          "description":  "Engine, VAD, base model, and small model.",
-                         "version":  "1.1.0",
+                         "version":  "V1.1.1",
                          "size":  595312856,
                          "components":  [
                                             "engine",
